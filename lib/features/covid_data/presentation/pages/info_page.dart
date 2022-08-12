@@ -13,22 +13,39 @@ class InfoPage extends StatelessWidget {
       ),
       body: SafeArea(
         child: Center(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              const SizedBox(
-                height: 50,
-              ),
-              Image.network(
-                'https://image.flaticon.com/icons/png/512/63/63830.png',
-                width: 150,
-                height: 150,
-              ),
-              const Padding(
-                padding: EdgeInsets.all(15.0),
-                child: Text('App feito para estudos afins de conhecer as diversas, funções e metodos em Flutter'),
-              )
-            ],
+          child: Padding(
+            padding: const EdgeInsets.all(15),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                const SizedBox(
+                  height: 50,
+                ),
+                Image.network(
+                  'https://cdn.pixabay.com/photo/2013/07/13/13/21/information-160885_1280.png',
+                  width: 150,
+                  height: 150,
+                ),
+                const SizedBox(
+                  height: 30,
+                ),
+                const Text(
+                  'Aplicativo desenvolvido no framework Flutter, com clean architecture.',
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                const Text(
+                  'Link utilzado para busca dos dados: https://covid19-brazil-api.now.sh/api/report/v1',
+                ),
+                const SizedBox(
+                  height: 15,
+                ),
+                const Text(
+                  'Projeto de aplicativo realizado para fim de estudo e conhecimento do framework e arquitetura.',
+                )
+              ],
+            ),
           ),
         ),
       ),

@@ -24,7 +24,11 @@ class CovidDataBloc extends Bloc<CovidDataEvent, CovidDataState> {
       yield state.loading();
       var fold = await getCovidData();
       yield await fold.fold(
-          (failure) => state.error(_mapCovidDataFailureToString(failure)), (getCovidData) => state.ready(getCovidData));
+        (failure) => state.error(
+          _mapCovidDataFailureToString(failure),
+        ),
+        (getCovidData) => state.ready(getCovidData),
+      );
     });
   }
 

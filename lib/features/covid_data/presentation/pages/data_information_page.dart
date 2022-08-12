@@ -78,59 +78,59 @@ class DataInformationPage extends StatelessWidget {
   String _mapStateToUrl(String state) {
     switch (state) {
       case 'São Paulo':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852744Bandeira_do_estado_de_S_Paulo.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-sao-paulo.png';
       case 'Minas Gerais':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743Bandeira_de_Minas_Gerais.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-minas-gerais.png';
       case 'Paraná':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeiraparana.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-parana.png';
       case 'Rio Grande do Sul':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeirariograndedosul.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-rio-grande-do-sul.png';
       case 'Rio de Janeiro':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeirariodejaneiro.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-rio-de-janeiro.png';
       case 'Bahia':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741bandeirabahia.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-bahia.png';
       case 'Santa Catarina':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeirasantacatarina.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-santa-catarina.png';
       case 'Ceará':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741bandeiraceara.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-ceara.png';
       case 'Goiás':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeiragoias.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-goias.png';
       case 'Pernambuco':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741BandeiradePernambuco.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-pernambuco.png';
       case 'Espírito Santo':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741bandeiraespiritosanto.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-espirito-santo.png';
       case 'Pará':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852744Bandeira_do_Par.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-pa.png';
       case 'Mato Grosso':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeiramatogrosso.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-mato-grosso.png';
       case 'Distrito Federal':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741bandeiradistritofederal.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-distrito-federal.png';
       case 'Paraíba':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeiraparaiba.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-paraiba.png';
       case 'Amazonas':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852744Bandeira_do_Amazonas.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-amazonas.png';
       case 'Rio Grande do Norte':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeirariograndedonorte.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-rio-grande-do-norte.png';
       case 'Mato Grosso do Sul':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852744bandeira_Mato_Grosso_Sul.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-mato-grosso-do-sul.png';
       case 'Maranhão':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852741bandeiradomaranhao.jpg';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-do-maranhao.png';
       case 'Piauí':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852742bandeirapiaui.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-piaui.png';
       case 'Rondônia':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeirarondonia.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-rondonia.png';
       case 'Sergipe':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeirasergipe.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-sergipe.png';
       case 'Alagoas':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743Bandeira_de_Alagoas.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-alagoas.png';
       case 'Tocantins':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeiratocantins.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-tocantins.png';
       case 'Roraima':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852743bandeiraroraima.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-de-roraima.png';
       case 'Amapá':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852744Bandeira_do_Amap.svg.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-amapa.png';
       case 'Acre':
-        return 'http://www.educadores.diaadia.pr.gov.br/modules/galeria/uploads/11/1409852740bandeiraacre.png';
+        return 'https://www.infoescola.com/wp-content/uploads/2021/02/bandeira-acre.png';
 
       default:
         return 'https://bandeira.net/wp-content/uploads/2018/08/bandeira-do-brasil-0.png';
